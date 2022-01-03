@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+
+<body>
+    <section id="container">
+        <form>
+            <section id="one"><b>Name</b><label style="color: crimson;">*</label></Section>
+            <section id="two">
+                <input type='text' id="Firstname" required>
+                <input type='text' required>
+            </section>
+            <section id="name">
+                <sub>First</sub>
+                <sub>Last</sub>
+            </section>
+            <br><br>
+            <section><b>Email<label style="color: crimson;">*</label></b></section>
+            <input type='email' required>
+            <br>
+            <br>
+            <label><b>Your Experience</b></label><label style="color: crimson;">*</label><br>
+                <div class="rate">
+                    <input type="radio" id="star5" name="rate" value="5" />
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rate" value="4" />
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rate" value="3" />
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rate" value="2" />
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rate" value="1" />
+                    <label for="star1" title="text">1 star</label>
+                  </div>
+            <br>
+            <sub>Overall, how would you rate your experience with us?</sub>
+            <br>
+            <br>
+            <section><b>How satisfied are you with</b><label style="color: crimson;">*</label>
+                <br>
+                <br>
+                <table id="table2">
+                    <tr>
+                        <td></td>
+                        <td>Very Unsatisfied</td>
+                        <td>Unsatisfied</td>
+                        <td>Neutral</td>
+                        <td>Satisified</td>
+                        <td>Very Satisfied</td>
+                    </tr>
+                    <tr id='odd' class="color">
+                        <td id="right">Purchase</td>
+                        <td><input type="radio" name="pq" required /></td>
+                        <td><input type="radio" name="pq" required /></td>
+                        <td><input type="radio" name="pq" required /></td>
+                        <td><input type="radio" name="pq" required /></td>
+                        <td><input type="radio" name="pq" required /></td>
+                    </tr>
+                    <tr id='odd'>
+                        <td id="right">Serivce</td>
+                        <td><input type="radio" name="pqr" required /></td>
+                        <td><input type="radio" name="pqr" required /></td>
+                        <td><input type="radio" name="pqr" required /></td>
+                        <td><input type="radio" name="pqr" required /></td>
+                        <td><input type="radio" name="pqr" required /></td>
+                    </tr>
+                    <tr id='odd' class="color">
+                        <td id="right">Company Overall</td>
+                        <td><input type="radio" name="q" required /></td>
+                        <td><input type="radio" name="q" required /></td>
+                        <td><input type="radio" name="q" required /></td>
+                        <td><input type="radio" name="q" required /></td>
+                        <td><input type="radio" name="q" required /></td>
+                    </tr>
+                </table>
+            </section>
+            <br>
+            <section req><b>How likely are you with</b><label style="color: crimson;">*</label>
+                <br>
+                <table id="table2">
+                    <tr>
+                        <td></td>
+                        <td>Very Unlikely</td>
+                        <td>Unlikely</td>
+                        <td>Neutral</td>
+                        <td>likely</td>
+                        <td>Very likely</td>
+                    </tr>
+                    <tr id='even' class="color">
+                        <td id="right">Buy us from Again</td>
+                        <td><input type="radio" name="bc" required /></td>
+                        <td><input type="radio" name="bc" required /></td>
+                        <td><input type="radio" name="bc" required /></td>
+                        <td><input type="radio" name="bc" required /></td>
+                        <td><input type="radio" name="bc" required /></td>
+                    </tr>
+                    <tr id='even'>
+                        <td id="right">Recommend our <br>product to others</td>
+                        <td><input type="radio" name="p1" required /></td>
+                        <td><input type="radio" name="p1" required /></td>
+                        <td><input type="radio" name="p1" required /></td>
+                        <td><input type="radio" name="p1" required /></td>
+                        <td><input type="radio" name="p1" required /></td>
+                    </tr>
+                    <tr id='even' class="color">
+                        <td id="right">Recommend our <br> to others</td>
+                        <td><input type="radio" name="pqr1" required /></td>
+                        <td><input type="radio" name="pqr1" required /></td>
+                        <td><input type="radio" name="pqr1" required /></td>
+                        <td><input type="radio" name="pqr1" required /></td>
+                        <td><input type="radio" name="pqr1" required /></td>
+                    </tr>
+                </table>
+            </section>
+            <br>
+            <section for="feedback"><b>Additional comments or suggestions</b><br>
+                <textarea rows="10" cols="100"></textarea>
+            </section>
+            <span class="fa fa-star checked"></span>
+            <button>Submit</button>
+
+
+        </form>
+
+    </section>
+</body>
+
+</html>
